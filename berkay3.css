@@ -1,0 +1,54 @@
+#h1math {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans Regular';
+    font-size: 55px;
+}
+
+#la,#la2 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Lucida Sans Regular';
+    text-align: center;
+}
+
+#python,#code.python2 {
+    color: black;
+    position: absolute;
+    left: 570px;
+}
+.python2 {
+    resize: none;
+    position: absolute;
+    left: 570px;
+}
+
+#la3 {
+    color: black;
+    font-size:25px;
+    font-family: 'Lucida Sans Regular';
+    position: absolute;
+    left: 570px;
+    top: 1000px;
+}
+#matrix3 {
+    position: absolute;
+    left: 430px;
+    top: 1050px;
+    font-size: 25px;
+}
+#matrix4 {
+    position: absolute;
+    left: 330px;
+    top: 1200px;
+    font-size: 25px;
+}
+
+.datepnw2 {
+    font-family: 'Trebuchet MS';
+    color: black;
+    position: absolute;
+    left:270px;
+    top:150px;
+    font-size: 25px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <link rel="stylesheet" href="berkay3.css">
+        <title>Summing Of Two Matrices</title>
+    </head>
+    <body>
+        <h1 id="h1math">Summing of Two Matrices in Theory<br>And Sample Python Application</h1>
+        <p class="datepnw2">15 August 2023</p>
+    </body>
+    <body>
+        <p id="la">
+            Let A and B be two mxn matrices.
+        </p>
+        <p id="matrix1">
+            $$A: = {\left( {\matrix{
+                {{a_{11}}} &  \cdots  & {{a_{1n}}}  \cr 
+                 \vdots  &  \ddots  &  \vdots   \cr 
+                {{a_{m1}}} &  \cdots  & {{a_{mn}}}  \cr 
+             
+              } } \right)_{mxn}}{\rm{                         B}}: = {\left( {\matrix{
+                {{b_{11}}} &  \cdots  & {{b_{1n}}}  \cr 
+                 \vdots  &  \ddots  &  \vdots   \cr 
+                {{b_{m1}}} &  \cdots  & {{b_{mn}}}  \cr 
+             
+              } } \right)_{mxn}}$$
+        </p>
+        <p id="la2">Sum of the two matrices can be shown as: </p>
+        <p id="matrix2">$$A + B = {\left( {\matrix{
+            {{a_{11}} + {b_{11}}} &  \cdots  & {{a_{1n}} + {b_{1n}}}  \cr 
+             \vdots  &  \ddots  &  \vdots   \cr 
+            {{a_{1n}} + {b_{1n}}} &  \cdots  & {{a_{mn}} + {b_{mn}}}  \cr 
+         
+          } } \right)_{mxn}}$$
+        </p>
+        
+        <label id="python">Sample Python Code:</label>
+        <br>
+
+        <textarea rows="30" cols="80" readonly class="python2">
+#Import numpy to create matrices.
+#Numpy is a useful library for linear algebra. 
+
+import numpy as np
+
+#np.matrix command allows us to create matrix. You should use this method this form : np.matrix("arguments";"arguments";...;"arguments"). ';' passes the second row.
+A=np.matrix("5 7 3; 4 5 9;4 2 1")
+B=np.matrix("2 9 8; 4 7 3;5 8 6")
+
+#After creating matrices, you can add these matrices directly
+result=A+B
+
+            </textarea>
+            
+    </body>
+    <body>
+        <p id="la3">The code represents:</p>
+        <p id="matrix3">$$A: = {\left[ {\matrix{
+            5 & 7 & 3  \cr 
+            4 & 5 & 9  \cr 
+            4 & 2 & 1  \cr 
+         
+          } } \right]_{3x3}}\;\;\;\;\;\;\;B: = {\left[ {\matrix{
+            2 & 9 & 8  \cr 
+            4 & 7 & 3  \cr 
+            5 & 8 & 6  \cr 
+         
+          } } \right]_{3x3}}$$</p>
+        <p id="matrix4">$$Result = A + B = {\left[ {\matrix{
+            {5 + 2} & {7 + 9} & {3 + 8}  \cr 
+            {4 + 4} & {5 + 7} & {3 + 9}  \cr 
+            {4 + 5} & {2 + 8} & {1 + 6}  \cr 
+         
+          } } \right]_{3x3}} = {\left[ {\matrix{
+            7 & {16} & {11}  \cr 
+            8 & {12} & {12}  \cr 
+            9 & {10} & 7  \cr 
+         
+          } } \right]_{3x3}}$$</p>
+    </body>
+</html>

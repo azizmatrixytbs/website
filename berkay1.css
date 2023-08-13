@@ -1,0 +1,119 @@
+#head1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+#my_pic {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+  }
+
+.p1,.p2 {
+    display: block;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+    text-align: center;
+}
+.p3 {
+    display: block;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    text-align: center;
+}
+
+li {
+    display: block;
+    text-align: center;
+    font-family: "Franklin Gothin Medium";
+
+}
+.date {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    left: 180px;
+    top: 420px;
+    font-size: 20px;
+}
+
+.date2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    left: 180px;
+    top: 447px;
+    font-size: 20px;
+}
+.date3 {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    left: 180px;
+    top: 474px;
+    font-size: 20px;
+}
+.date4 {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    left: 180px;
+    top: 501px;
+    font-size: 20px;
+}
+
+.date5 {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    left: 180px;
+    top: 528px;
+    font-size: 20px;
+}
+
+
+
+#clickwebsite{
+    position: absolute;
+    left: 334px;
+    top: 440px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color:gray;
+}
+#math1{
+    position: absolute;
+    left: 334px;
+    top: 467px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color:gray;
+}
+#limit{
+    position: absolute;
+    left: 334px;
+    top: 494px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color:gray;
+}
+#abs{
+    position: absolute;
+    left: 334px;
+    top: 521px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color:gray;
+}
+#inheritance{
+    position: absolute;
+    left: 334px;
+    top: 548px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color:gray;
+}

@@ -1,0 +1,21 @@
+#headfs {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans Regular';
+    font-size: 45px;
+}
+#head2fs {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans Regular';
+    font-size: 35px;
+}
+
+#diagram {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin: auto;
+    width: 30%;
+  }
